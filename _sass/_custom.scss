@@ -1,0 +1,255 @@
+/* 
+    Put your custom SCSS here! 
+    This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Lobster&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Lobster&family=Major+Mono+Display&family=Yeseva+One&display=swap');
+
+
+.h2,  h2 {
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+    font-weight: light!important;
+    line-height: 0.5;
+    font-size:1.5rem!important;
+}
+
+.h1,  h1 {
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+    font-weight: bold!important;
+    line-height: 0.5;
+    font-size:3.5rem!important;
+    font-family: "Major Mono Display",sans serif !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: blue;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.row {
+    border: 3px solid rgba(0, 0, 0, 0.7) !important;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(0.5 * var(--bs-gutter-x));
+    padding-top: calc(0.5 * var(--bs-gutter-x));
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    
+}
+
+.text-dark {
+    --bs-text-opacity: 1;
+    color: #2e2e2e !important;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: blue !important;
+    border-color: blue !important;
+}
+
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    z-index: 200;
+    width: 100%;
+    background-color: #ffffff !important;
+    border: 3px solid #000000 !important;
+    color: rgb(0, 0, 0)!important;
+}
+
+    
+.navbar-dark .navbar-toggler-icon {
+    background-color: #87cfd5 !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid transparent!important;
+    border-bottom: 2px solid black !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 15rem !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.col-12 {
+    margin-top: 4rem;
+    flex: 0 0 auto;
+    width: 95%;
+    padding: 10px;
+    font-weight: 400 !important;
+    font-style: normal !important;
+   /*  transform: rotate(-3deg);*/
+    color: #007d8e;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 3px solid #000000;
+    border-radius: 0rem !important;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+}
+
+
+.card-img, .card-img-top {
+    border-top-left-radius: 0rem!important;
+    border-top-right-radius: 0.1rem!important;
+}
+
+
+hr {
+    margin: 1rem 0;
+    color: #000;
+    background-color: currentColor;
+    border: 0;
+    opacity: 1;
+}
+
+.input-group-lg>.btn, .input-group-lg>.form-control, .input-group-lg>.form-select, .input-group-lg>.input-group-text {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0!important;
+}
+
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: #c9e297 !important;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: 15rem !important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.input-group-lg>.btn, .input-group-lg>.form-control, .input-group-lg>.form-select, .input-group-lg>.input-group-text {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 15rem !important;
+}
+
+.nav-pills .nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: 15rem !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+a.nav-link.active{
+color:#c9e297 !important;
+ font-weight:  !important;
+}
+
+hover.nav-link.active{
+color:#adc383 !important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0rem!important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+    .timeline-thumb {
+    max-height: 250px;
+    max-width: 20%;
+}
+
+    .img-thumbnail {
+    padding: .1rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0rem;
+    max-width: 100%;
+    height: auto;
+}
+
+
+div.col-lg-1.col-md-6 {
+Padding: 0px !important;
+}
+
+
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+    .h1,  h1 {
+    font-size:1.5rem!important;
+}
+
+}
