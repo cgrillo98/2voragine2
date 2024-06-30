@@ -1,6 +1,6 @@
 field,index,display
-titulo,true,true
-fecha,true,true
+title,true,true
+date,true,true
 autor,true,false
 descripcion,true,true
 tema,true,true
