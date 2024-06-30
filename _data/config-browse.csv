@@ -1,5 +1,5 @@
 field,display_name,btn,hidden,sort_name
-fecha,creación obra original,,,creación obra original
+date,Date,,,Date
 autor,Autor,,,
 tema,,true
 locacion,,true
