@@ -1,7 +1,7 @@
 field,display_name,browse_link,external_link
-titulo,Titulo,
+title,Title,
 autor,Autor,
-fecha,creación obra original,
+date,Date Created,
 descripcion,Descripción,
 tema,Tema,true
 locacion,origen de autor
