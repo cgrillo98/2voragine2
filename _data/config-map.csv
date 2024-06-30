@@ -1,5 +1,5 @@
 field,display_name,search
-fecha,creación obra original,true
+date,Date,true
 autor,Autor,true
 tema,Tema,true
 locacion,origen de autor,true
