@@ -6,7 +6,7 @@ descripcion,Descripción,
 tema,Tema,true
 locacion,origen de autor
 fuente,Novela fuente
-identifier,Source Identifier,,
+id,Id,,
 tipo,Tipo,
 formato,Formato,
 autor2,Autor original,
